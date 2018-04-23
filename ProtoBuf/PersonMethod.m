@@ -10,7 +10,7 @@
 #import <ProtocolBuffers/ProtocolBuffers.h>
 #import "Person.pb.h"
 
-@implementation PBHttpMethod
+@implementation PersonMethod
 
 + (void)post
 
