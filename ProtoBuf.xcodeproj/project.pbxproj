@@ -11,6 +11,8 @@
 		7784F54B2089D26C00FE01C1 /* Person.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784F5492089D26B00FE01C1 /* Person.pb.m */; };
 		7784F5512089DE5F00FE01C1 /* ClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784F5502089DE5F00FE01C1 /* ClassMethod.m */; };
 		7784F5542089DF5D00FE01C1 /* MyClass.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784F5532089DF5D00FE01C1 /* MyClass.pb.m */; };
+		7784F556208DC3E800FE01C1 /* person.proto in Resources */ = {isa = PBXBuildFile; fileRef = 7784F555208DC3E800FE01C1 /* person.proto */; };
+		7784F558208DC3EF00FE01C1 /* myClass.proto in Resources */ = {isa = PBXBuildFile; fileRef = 7784F557208DC3EF00FE01C1 /* myClass.proto */; };
 		77D2F0F82057AB6C004E8E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2F0F72057AB6C004E8E2E /* AppDelegate.m */; };
 		77D2F0FB2057AB6C004E8E2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2F0FA2057AB6C004E8E2E /* ViewController.m */; };
 		77D2F0FE2057AB6C004E8E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D2F0FC2057AB6C004E8E2E /* Main.storyboard */; };
@@ -29,6 +31,8 @@
 		7784F5502089DE5F00FE01C1 /* ClassMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassMethod.m; sourceTree = "<group>"; };
 		7784F5522089DF5C00FE01C1 /* MyClass.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.pb.h; sourceTree = "<group>"; };
 		7784F5532089DF5D00FE01C1 /* MyClass.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.pb.m; sourceTree = "<group>"; };
+		7784F555208DC3E800FE01C1 /* person.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = person.proto; sourceTree = "<group>"; };
+		7784F557208DC3EF00FE01C1 /* myClass.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = myClass.proto; sourceTree = "<group>"; };
 		77D2F0F32057AB6C004E8E2E /* ProtoBuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoBuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D2F0F62057AB6C004E8E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77D2F0F72057AB6C004E8E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -85,8 +89,10 @@
 		77D2F0F52057AB6C004E8E2E /* ProtoBuf */ = {
 			isa = PBXGroup;
 			children = (
+				7784F555208DC3E800FE01C1 /* person.proto */,
 				7784F54A2089D26B00FE01C1 /* Person.pb.h */,
 				7784F5492089D26B00FE01C1 /* Person.pb.m */,
+				7784F557208DC3EF00FE01C1 /* myClass.proto */,
 				7784F5522089DF5C00FE01C1 /* MyClass.pb.h */,
 				7784F5532089DF5D00FE01C1 /* MyClass.pb.m */,
 				77D2F0F62057AB6C004E8E2E /* AppDelegate.h */,
@@ -176,7 +182,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7784F558208DC3EF00FE01C1 /* myClass.proto in Resources */,
 				77D2F1032057AB6C004E8E2E /* LaunchScreen.storyboard in Resources */,
+				7784F556208DC3E800FE01C1 /* person.proto in Resources */,
 				77D2F1002057AB6C004E8E2E /* Assets.xcassets in Resources */,
 				77D2F0FE2057AB6C004E8E2E /* Main.storyboard in Resources */,
 			);

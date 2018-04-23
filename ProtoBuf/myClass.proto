@@ -1,0 +1,30 @@
+syntax = "proto2";
+
+message Person{
+	optional string name = 1;
+	optional int32 age = 2;
+
+	enum DeviceType{ 
+		IOS = 0;
+		Android = 1;
+		WP = 2;
+	}
+
+	optional DeviceType deviceType = 3; //设备类型
+
+	message Result{
+		optional string url = 1;
+		optional string title = 2;
+	}
+	repeated Result results = 4;
+
+	repeated Animal animals = 5;
+}
+
+
+message Animal{
+	optional float weight = 1;
+	optional double price  = 2;
+	optional string namme = 3;
+}
+

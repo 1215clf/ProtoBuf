@@ -1,0 +1,13 @@
+message LoginRequest
+{
+optional bytes type =1;
+required bytes username=2;
+required bytes password =3;
+
+}
+message LoginResponse
+{
+required int32 code = 1;
+
+optional bytes token = 2;
+}
