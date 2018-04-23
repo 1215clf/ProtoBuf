@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21F8E298DCE7DCD331AEECBF /* Pods_ProtoBuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A333A9185F2986C95EAE50 /* Pods_ProtoBuf.framework */; };
+		7784F54B2089D26C00FE01C1 /* Person.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784F5492089D26B00FE01C1 /* Person.pb.m */; };
+		7784F5512089DE5F00FE01C1 /* ClassMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784F5502089DE5F00FE01C1 /* ClassMethod.m */; };
+		7784F5542089DF5D00FE01C1 /* MyClass.pb.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784F5532089DF5D00FE01C1 /* MyClass.pb.m */; };
 		77D2F0F82057AB6C004E8E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2F0F72057AB6C004E8E2E /* AppDelegate.m */; };
 		77D2F0FB2057AB6C004E8E2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2F0FA2057AB6C004E8E2E /* ViewController.m */; };
 		77D2F0FE2057AB6C004E8E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D2F0FC2057AB6C004E8E2E /* Main.storyboard */; };
 		77D2F1002057AB6C004E8E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D2F0FF2057AB6C004E8E2E /* Assets.xcassets */; };
 		77D2F1032057AB6C004E8E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D2F1012057AB6C004E8E2E /* LaunchScreen.storyboard */; };
 		77D2F1062057AB6C004E8E2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2F1052057AB6C004E8E2E /* main.m */; };
+		77D2F1102057C44F004E8E2E /* PersonMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D2F10F2057C44F004E8E2E /* PersonMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA534E467F9BC65CF6F1A3F /* Pods-ProtoBuf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBuf.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBuf/Pods-ProtoBuf.release.xcconfig"; sourceTree = "<group>"; };
+		58368F0413F97FA9BFD95B5A /* Pods-ProtoBuf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProtoBuf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProtoBuf/Pods-ProtoBuf.debug.xcconfig"; sourceTree = "<group>"; };
+		7784F5492089D26B00FE01C1 /* Person.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.pb.m; path = ../../../../../ProtoBuf/Person.pb.m; sourceTree = "<group>"; };
+		7784F54A2089D26B00FE01C1 /* Person.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.pb.h; path = ../../../../../ProtoBuf/Person.pb.h; sourceTree = "<group>"; };
+		7784F54F2089DE5F00FE01C1 /* ClassMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassMethod.h; sourceTree = "<group>"; };
+		7784F5502089DE5F00FE01C1 /* ClassMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassMethod.m; sourceTree = "<group>"; };
+		7784F5522089DF5C00FE01C1 /* MyClass.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.pb.h; sourceTree = "<group>"; };
+		7784F5532089DF5D00FE01C1 /* MyClass.pb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.pb.m; sourceTree = "<group>"; };
 		77D2F0F32057AB6C004E8E2E /* ProtoBuf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtoBuf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77D2F0F62057AB6C004E8E2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		77D2F0F72057AB6C004E8E2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +39,9 @@
 		77D2F1022057AB6C004E8E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D2F1042057AB6C004E8E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D2F1052057AB6C004E8E2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77D2F10E2057C44F004E8E2E /* PersonMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonMethod.h; sourceTree = "<group>"; };
+		77D2F10F2057C44F004E8E2E /* PersonMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonMethod.m; sourceTree = "<group>"; };
+		E6A333A9185F2986C95EAE50 /* Pods_ProtoBuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProtoBuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F8E298DCE7DCD331AEECBF /* Pods_ProtoBuf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		359A457E4C6E2711F1920E8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6A333A9185F2986C95EAE50 /* Pods_ProtoBuf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		77D2F0EA2057AB6C004E8E2E = {
 			isa = PBXGroup;
 			children = (
 				77D2F0F52057AB6C004E8E2E /* ProtoBuf */,
 				77D2F0F42057AB6C004E8E2E /* Products */,
+				8C15BA576FEE911CD65D1DD6 /* Pods */,
+				359A457E4C6E2711F1920E8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +85,16 @@
 		77D2F0F52057AB6C004E8E2E /* ProtoBuf */ = {
 			isa = PBXGroup;
 			children = (
+				7784F54A2089D26B00FE01C1 /* Person.pb.h */,
+				7784F5492089D26B00FE01C1 /* Person.pb.m */,
+				7784F5522089DF5C00FE01C1 /* MyClass.pb.h */,
+				7784F5532089DF5D00FE01C1 /* MyClass.pb.m */,
 				77D2F0F62057AB6C004E8E2E /* AppDelegate.h */,
 				77D2F0F72057AB6C004E8E2E /* AppDelegate.m */,
+				77D2F10E2057C44F004E8E2E /* PersonMethod.h */,
+				77D2F10F2057C44F004E8E2E /* PersonMethod.m */,
+				7784F54F2089DE5F00FE01C1 /* ClassMethod.h */,
+				7784F5502089DE5F00FE01C1 /* ClassMethod.m */,
 				77D2F0F92057AB6C004E8E2E /* ViewController.h */,
 				77D2F0FA2057AB6C004E8E2E /* ViewController.m */,
 				77D2F0FC2057AB6C004E8E2E /* Main.storyboard */,
@@ -71,6 +106,15 @@
 			path = ProtoBuf;
 			sourceTree = "<group>";
 		};
+		8C15BA576FEE911CD65D1DD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58368F0413F97FA9BFD95B5A /* Pods-ProtoBuf.debug.xcconfig */,
+				2EA534E467F9BC65CF6F1A3F /* Pods-ProtoBuf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 77D2F1092057AB6C004E8E2E /* Build configuration list for PBXNativeTarget "ProtoBuf" */;
 			buildPhases = (
+				99593B6642D3FDA82FA0550F /* [CP] Check Pods Manifest.lock */,
 				77D2F0EF2057AB6C004E8E2E /* Sources */,
 				77D2F0F02057AB6C004E8E2E /* Frameworks */,
 				77D2F0F12057AB6C004E8E2E /* Resources */,
+				C53E174DB4E38BA131692EE4 /* [CP] Embed Pods Frameworks */,
+				96E007D0B370346A9CBC1DC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,14 +184,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96E007D0B370346A9CBC1DC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBuf/Pods-ProtoBuf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99593B6642D3FDA82FA0550F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ProtoBuf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53E174DB4E38BA131692EE4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBuf/Pods-ProtoBuf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ProtocolBuffers/ProtocolBuffers.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtocolBuffers.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProtoBuf/Pods-ProtoBuf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		77D2F0EF2057AB6C004E8E2E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77D2F1102057C44F004E8E2E /* PersonMethod.m in Sources */,
 				77D2F0FB2057AB6C004E8E2E /* ViewController.m in Sources */,
+				7784F5512089DE5F00FE01C1 /* ClassMethod.m in Sources */,
+				7784F5542089DF5D00FE01C1 /* MyClass.pb.m in Sources */,
 				77D2F1062057AB6C004E8E2E /* main.m in Sources */,
 				77D2F0F82057AB6C004E8E2E /* AppDelegate.m in Sources */,
+				7784F54B2089D26C00FE01C1 /* Person.pb.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,12 +381,19 @@
 		};
 		77D2F10A2057AB6C004E8E2E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58368F0413F97FA9BFD95B5A /* Pods-ProtoBuf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AULHABZ7Y3;
+				HEADER_SEARCH_PATHS = /usr/local/include/google/protobuf;
 				INFOPLIST_FILE = ProtoBuf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = clf.ProtoBuf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,12 +402,19 @@
 		};
 		77D2F10B2057AB6C004E8E2E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EA534E467F9BC65CF6F1A3F /* Pods-ProtoBuf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AULHABZ7Y3;
+				HEADER_SEARCH_PATHS = /usr/local/include/google/protobuf;
 				INFOPLIST_FILE = ProtoBuf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = clf.ProtoBuf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
