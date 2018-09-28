@@ -5,8 +5,8 @@ Protocol Buffers sample example
 # 一、安装Protobuf编译器
 
 首先按照github上的顺序进行，
-brew install automake\n
-brew install libtool \n
+brew install automake
+brew install libtool 
 brew install protobuf
 
 如果直接按照github上的步骤，会出现很多error，没有走下去。
@@ -18,16 +18,20 @@ brew install protobuf
 localhost:~ clf$ git clone https://github.com/alexeyxo/protobuf-objc.git
 
 2、cd ~/protobuf-objc
+
 localhost:~ clf$ cd ~/protobuf-objc
 
 3、./autogen.sh
+
 localhost:protobuf-objc clf$ ./autogen.sh
 
 
 4、./configure
+
 localhost:protobuf-objc clf$ ./configure
 
 5、make
+
 localhost:protobuf-objc clf$ make
 
 
@@ -75,9 +79,11 @@ localhost:ProtoBuf clf$ protoc --plugin=/usr/local/bin/protoc-gen-objc person.pr
 # 三、工程中使用Protobuf
 
 1、创建ProtoBuf工程
+
 localhost:~ clf$ cd ~/Desktop/ProtoBuf
 
 2、创建Podfile
+
 localhost:~ clf$ touch Podfile
 
 输入
@@ -89,12 +95,13 @@ target ‘ProtoBuf’ do
    pod 'ProtocolBuffers', '~> 1.9.11'
 end
 
-3、
-pod install
+3、pod install
 
 4、将刚刚生成的.h和.m文件导入工程中，在工程中导入文件
 
 #import <ProtocolBuffers/ProtocolBuffers.h>
+
 #import "Person.pb.h"
+
 就可以开始你的项目代码了。
    
