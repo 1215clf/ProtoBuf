@@ -5,8 +5,8 @@ Protocol Buffers sample example
 # 一、安装Protobuf编译器
 
 首先按照github上的顺序进行，
-brew install automake
-brew install libtool 
+brew install automake\n
+brew install libtool \n
 brew install protobuf
 
 如果直接按照github上的步骤，会出现很多error，没有走下去。
