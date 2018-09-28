@@ -8,17 +8,18 @@ Protocol Buffers sample example
 brew install automake
 brew install libtool 
 brew install protobuf
+
 如果直接按照github上的步骤，会出现很多error，没有走下去。
 
 所以记下了自己实践成功步骤：
+
 1、git clone https://github.com/alexeyxo/protobuf-objc.git
 
 localhost:~ clf$ git clone https://github.com/alexeyxo/protobuf-objc.git
 
-
-
 2、cd ~/protobuf-objc
 localhost:~ clf$ cd ~/protobuf-objc
+
 3、./autogen.sh
 localhost:protobuf-objc clf$ ./autogen.sh
 
@@ -30,7 +31,6 @@ localhost:protobuf-objc clf$ ./configure
 localhost:protobuf-objc clf$ make
 
 
-localhost:protobuf-objc clf$
 完成后，在/usr/local/bin/目录下的protoc-gen-objc就是我们需要的编译器。
 
 # 二、创建proto文件
@@ -48,6 +48,7 @@ vi person.proto
 示例：一个message就是一个整体，里面有哪些必要的内容，哪些可选的内容。
 
 message LoginRequest
+
 {
 optional bytes type =1;
 required bytes username=2;
@@ -67,7 +68,6 @@ localhost:~ clf$ cd /Users/clf/ProtoBuf
 
 localhost:ProtoBuf clf$ protoc --plugin=/usr/local/bin/protoc-gen-objc person.proto --objc_out="./"
 
-localhost:ProtoBuf clf$
 
 然后在当前目录下就生成了Person.pb.m和Person.pb.h文件。
 
@@ -81,6 +81,7 @@ localhost:~ clf$ cd ~/Desktop/ProtoBuf
 localhost:~ clf$ touch Podfile
 
 输入
+
 platform :ios, ‘8.0’
 use_frameworks!
 
